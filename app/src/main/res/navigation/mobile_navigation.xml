@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.allinone_miniproject.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_educationActivity2"
+            app:destination="@id/educationActivity2" />
+
+
+        <action
+            android:id="@+id/action_nav_home_to_educationFragment"
+            app:destination="@id/educationFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_newsFragment"
+            app:destination="@id/newsFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_socialmediaFragment"
+            app:destination="@id/socialmediaFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_generalFragment"
+            app:destination="@id/generalFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/youtube"
+        android:name="com.example.allinone_miniproject.Fragments.YoutubeFragment"
+        android:label="Youtube"
+        tools:layout="@layout/fragment_youtube2" />
+    <fragment
+        android:id="@+id/facebook"
+        android:name="com.example.allinone_miniproject.Fragments.FacebookFragment"
+        android:label="Facebook"
+        tools:layout="@layout/fragment_facebook" />
+    <fragment
+        android:id="@+id/instagram"
+        android:name="com.example.allinone_miniproject.Fragments.InstagramFragment"
+        android:label="Instagram"
+        tools:layout="@layout/fragment_instagram" />
+    <fragment
+        android:id="@+id/twitter"
+        android:name="com.example.allinone_miniproject.Fragments.TwitterFragment"
+        android:label="Twitter"
+        tools:layout="@layout/fragment_twitter" />
+    <fragment
+        android:id="@+id/linkdin"
+        android:name="com.example.allinone_miniproject.Fragments.LinkdinFragment"
+        android:label="Linkdin"
+        tools:layout="@layout/fragment_linkdin" />
+    <fragment
+        android:id="@+id/amazon"
+        android:name="com.example.allinone_miniproject.Fragments.AmazonFragment"
+        android:label="Amazon"
+        tools:layout="@layout/fragment_amazon" />
+    <fragment
+        android:id="@+id/flipkart"
+        android:name="com.example.allinone_miniproject.Fragments.FlipkartFragment"
+        android:label="Flipkart"
+        tools:layout="@layout/fragment_flipkart" />
+    <fragment
+        android:id="@+id/meesho"
+        android:name="com.example.allinone_miniproject.Fragments.MeeshoFragment"
+        android:label="Meesho"
+        tools:layout="@layout/fragment_meesho" />
+    <fragment
+        android:id="@+id/shopclues"
+        android:name="com.example.allinone_miniproject.Fragments.ShopcluesFragment"
+        android:label="Shopclues"
+        tools:layout="@layout/fragment_shopclues" />
+    <fragment
+        android:id="@+id/zomato"
+        android:name="com.example.allinone_miniproject.Fragments.ZomatoFragment"
+        android:label="Zomato"
+        tools:layout="@layout/fragment_zomato" />
+    <fragment
+        android:id="@+id/swiggy"
+        android:name="com.example.allinone_miniproject.Fragments.SwiggyFragment"
+        android:label="Swiggy"
+        tools:layout="@layout/fragment_swiggy" />
+    <fragment
+        android:id="@+id/mcDonald"
+        android:name="com.example.allinone_miniproject.Fragments.McdonaldFragment"
+        android:label="Mcdonald"
+        tools:layout="@layout/fragment_mcdonald" />
+    <fragment
+        android:id="@+id/pizzahut"
+        android:name="com.example.allinone_miniproject.Fragments.PizzahutFragment"
+        android:label="Pizzahut"
+        tools:layout="@layout/fragment_pizzahut" />
+    <fragment
+        android:id="@+id/googlemap"
+        android:name="com.example.allinone_miniproject.Fragments.GooglemapFragment"
+        android:label="Googlemap"
+        tools:layout="@layout/fragment_googlemap" />
+    <fragment
+        android:id="@+id/irctc"
+        android:name="com.example.allinone_miniproject.Fragments.IrctcFragment"
+        android:label="IRCTC"
+        tools:layout="@layout/fragment_irctc" />
+    <fragment
+        android:id="@+id/uber"
+        android:name="com.example.allinone_miniproject.Fragments.UberFragment"
+        android:label="Uber"
+        tools:layout="@layout/fragment_uber" />
+    <fragment
+        android:id="@+id/ola"
+        android:name="com.example.allinone_miniproject.Fragments.OlaFragment"
+        android:label="Ola"
+        tools:layout="@layout/fragment_ola" />
+    <fragment
+        android:id="@+id/oyo"
+        android:name="com.example.allinone_miniproject.Fragments.OyoFragment"
+        android:label="Oyo"
+        tools:layout="@layout/fragment_oyo" />
+    <fragment
+        android:id="@+id/booking"
+        android:name="com.example.allinone_miniproject.Fragments.BookingFragment"
+        android:label="Booking"
+        tools:layout="@layout/fragment_booking" />
+    <fragment
+        android:id="@+id/trivago"
+        android:name="com.example.allinone_miniproject.Fragments.TrivagoFragment"
+        android:label="Trivago"
+        tools:layout="@layout/fragment_trivago" />
+    <fragment
+        android:id="@+id/hotels"
+        android:name="com.example.allinone_miniproject.Fragments.HotelsFragment"
+        android:label="Hotels"
+        tools:layout="@layout/fragment_hotels" />
+    <fragment
+        android:id="@+id/aktu"
+        android:name="com.example.allinone_miniproject.Fragments.AktuFragment"
+        android:label="Aktu"
+        tools:layout="@layout/fragment_aktu" />
+    <fragment
+        android:id="@+id/ashoka"
+        android:name="com.example.allinone_miniproject.Fragments.AshokaFragment"
+        android:label="Ashoka"
+        tools:layout="@layout/fragment_ashoka" />
+    <fragment
+        android:id="@+id/nptel"
+        android:name="com.example.allinone_miniproject.Fragments.NptelFragment"
+        android:label="Nptel"
+        tools:layout="@layout/fragment_nptel" />
+    <fragment
+        android:id="@+id/sanfoundary"
+        android:name="com.example.allinone_miniproject.Fragments.SanfoundryFragment"
+        android:label="Sanfoundry"
+        tools:layout="@layout/fragment_sanfoundry" />
+    <fragment
+        android:id="@+id/ndtv"
+        android:name="com.example.allinone_miniproject.Fragments.NdtvFragment"
+        android:label="Ndtv"
+        tools:layout="@layout/fragment_ndtv" />
+    <fragment
+        android:id="@+id/indiatoday"
+        android:name="com.example.allinone_miniproject.Fragments.IndiatodayFragment"
+        android:label="Indiatoday"
+        tools:layout="@layout/fragment_indiatoday" />
+    <fragment
+        android:id="@+id/news18"
+        android:name="com.example.allinone_miniproject.Fragments.News18Fragment"
+        android:label="News18"
+        tools:layout="@layout/fragment_news18" />
+    <fragment
+        android:id="@+id/hindustan"
+        android:name="com.example.allinone_miniproject.Fragments.HindutimesFragment"
+        android:label="Hindutimes"
+        tools:layout="@layout/fragment_hindutimes" />
+    <fragment
+        android:id="@+id/calculator"
+        android:name="com.example.allinone_miniproject.Fragments.CalculatorFragment"
+        android:label="Calculator"
+        tools:layout="@layout/fragment_calculator" />
+    <fragment
+        android:id="@+id/timedate"
+        android:name="com.example.allinone_miniproject.Fragments.TimedateFragment"
+        android:label="Timedate"
+        tools:layout="@layout/fragment_t_imedate" />
+    <fragment
+        android:id="@+id/weather"
+        android:name="com.example.allinone_miniproject.Fragments.WeatherFragment"
+        android:label="Weather"
+        tools:layout="@layout/fragment_weather" />
+    <fragment
+        android:id="@+id/game"
+        android:name="com.example.allinone_miniproject.Fragments.GameFragment"
+        android:label="Game"
+        tools:layout="@layout/fragment_game" />
+    <activity
+        android:id="@+id/educationActivity2"
+        android:name="com.example.allinone_miniproject.EducationFragment"
+        android:label="activity_education"
+        tools:layout="@layout/fragment_education" />
+
+
+    <fragment
+        android:id="@+id/educationFragment"
+        android:name="com.example.allinone_miniproject.EducationFragment"
+        android:label="fragment_education"
+        tools:layout="@layout/fragment_education" >
+        <action
+            android:id="@+id/action_educationFragment_to_aktu"
+            app:destination="@id/aktu" />
+        <action
+            android:id="@+id/action_educationFragment_to_ashoka"
+            app:destination="@id/ashoka" />
+        <action
+            android:id="@+id/action_educationFragment_to_nptel"
+            app:destination="@id/nptel" />
+        <action
+            android:id="@+id/action_educationFragment_to_sanfoundary"
+            app:destination="@id/sanfoundary" />
+    </fragment>
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.example.allinone_miniproject.NewsFragment"
+        android:label="NewsFragment" >
+        <action
+            android:id="@+id/action_newsFragment_to_ndtv"
+            app:destination="@id/ndtv" />
+        <action
+            android:id="@+id/action_newsFragment_to_indiatoday"
+            app:destination="@id/indiatoday" />
+        <action
+            android:id="@+id/action_newsFragment_to_news18"
+            app:destination="@id/news18" />
+        <action
+            android:id="@+id/action_newsFragment_to_hindustan"
+            app:destination="@id/hindustan" />
+    </fragment>
+    <fragment
+        android:id="@+id/socialmediaFragment"
+        android:name="com.example.allinone_miniproject.SocialmediaFragment"
+        android:label="SocialmediaFragment" >
+        <action
+            android:id="@+id/action_socialmediaFragment_to_facebook"
+            app:destination="@id/facebook" />
+        <action
+            android:id="@+id/action_socialmediaFragment_to_instagram"
+            app:destination="@id/instagram" />
+        <action
+            android:id="@+id/action_socialmediaFragment_to_youtube"
+            app:destination="@id/youtube" />
+        <action
+            android:id="@+id/action_socialmediaFragment_to_twitter"
+            app:destination="@id/twitter" />
+    </fragment>
+    <fragment
+        android:id="@+id/generalFragment"
+        android:name="com.example.allinone_miniproject.GeneralFragment"
+        android:label="GeneralFragment" >
+        <action
+            android:id="@+id/action_generalFragment_to_calculator"
+            app:destination="@id/calculator" />
+        <action
+            android:id="@+id/action_generalFragment_to_timedate"
+            app:destination="@id/timedate" />
+        <action
+            android:id="@+id/action_generalFragment_to_weather"
+            app:destination="@id/weather" />
+        <action
+            android:id="@+id/action_generalFragment_to_game"
+            app:destination="@id/game" />
+    </fragment>
+
+
+</navigation>

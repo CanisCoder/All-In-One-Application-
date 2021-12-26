@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAD6ADBA"
+    android:orientation="vertical"
+    android:weightSum="5"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:layout_weight="2">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="2050dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/news" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="151dp"
+            android:gravity="center"
+            android:text="News"
+            android:textColor="#F68205"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="@drawable/background_bg"
+        android:rowCount="2"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:columnCount="2">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_ndtv"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            app:cardElevation="4dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            app:cardCornerRadius="4dp"
+            android:layout_rowWeight="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:background="#FAD6ADBA">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ndtvimg" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:text="NDTV"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_indiatoday"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            app:cardElevation="4dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            app:cardCornerRadius="4dp"
+            android:layout_rowWeight="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:background="#FAD6ADBA">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/indiatodayimg" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20dp"
+                    android:text="India Today"
+                    android:textColor="@color/black" />
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_news18"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            app:cardElevation="4dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            app:cardCornerRadius="4dp"
+            android:layout_rowWeight="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:background="#FAD6ADBA">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/news18img" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20dp"
+                    android:text="News18"
+                    android:textColor="@color/black" />
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_hindustantimes"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            app:cardElevation="4dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            app:cardCornerRadius="4dp"
+            android:layout_rowWeight="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:background="#FAD6ADBA">
+
+                <ImageView
+                    android:layout_width="135dp"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/htimg" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20dp"
+                    android:text="Hindustan Times"
+                    android:textColor="@color/black" />
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+    </GridLayout>
+
+
+</LinearLayout>

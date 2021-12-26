@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">AllinOne_miniProject</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="social_media">Social Media</string>
+    <string name="youtube">YouTube</string>
+    <string name="facebook">Facebook</string>
+    <string name="instagram">Instagram</string>
+    <string name="twitter">Twitter</string>
+    <string name="linkdin">Linkdin</string>
+    <string name="shopping">Shopping</string>
+    <string name="amazon">Amazon</string>
+    <string name="flipkart">Flipkart</string>
+    <string name="meesho">Meesho</string>
+    <string name="shopclues">Shopclues</string>
+    <string name="food_world">Food World</string>
+    <string name="zomato">Zomato</string>
+    <string name="swiggy">Swiggy</string>
+    <string name="mcdonald">McDonald</string>
+    <string name="pizza_hut">Pizza Hut</string>
+    <string name="travelling">Travelling</string>
+    <string name="google_map">Google Map</string>
+    <string name="irctc_rail">IRCTC Rail</string>
+    <string name="uber">Uber</string>
+    <string name="ola">Ola</string>
+    <string name="hotels">Hotels</string>
+    <string name="oyo">OYO</string>
+    <string name="booking_com">Booking.com</string>
+    <string name="trivago">Trivago</string>
+    <string name="hotels_com">Hotels.com</string>
+    <string name="education">Education</string>
+    <string name="aktu">AKTU</string>
+    <string name="ashoka_aitm">Ashoka (AITM)</string>
+    <string name="nptel">NPTEL</string>
+    <string name="sanfoundary">Sanfoundary</string>
+    <string name="news">News</string>
+    <string name="ndtv">NDTV</string>
+    <string name="india_today">India Today</string>
+    <string name="news18">News18</string>
+    <string name="hindustan_times">Hindustan Times</string>
+    <string name="general">General</string>
+    <string name="calculator">Calculator</string>
+    <string name="time_date">Time/Date</string>
+    <string name="weather">Weather</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

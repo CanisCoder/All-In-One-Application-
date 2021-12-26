@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+
+        <item android:title="social_media">
+            <menu>
+                <item
+                    android:id="@+id/youtube"
+                    android:icon="@drawable/youtube"
+                    android:title="Youtube"
+                    android:menuCategory="secondary"/>
+                <item
+                    android:id="@+id/facebook"
+                    android:icon="@drawable/facebook"
+                    android:title="Facebook"
+                    android:menuCategory="secondary"/>
+                <item
+                    android:id="@+id/instagram"
+                    android:icon="@drawable/instagram"
+                    android:title="@string/instagram"
+                    android:menuCategory="secondary"/>
+                <item
+                    android:id="@+id/twitter"
+                    android:icon="@drawable/twitter"
+                    android:title="@string/twitter"
+                    android:menuCategory="secondary"/>
+                <item
+                    android:id="@+id/linkdin"
+                    android:icon="@drawable/linedin"
+                    android:title="LinkedIn"
+                    android:menuCategory="secondary"/>
+
+
+            </menu>
+
+        </item>
+
+        <item android:title="@string/shopping">
+            <menu>
+                <item
+                    android:id="@+id/amazon"
+                    android:icon="@drawable/amazon"
+                    android:title="@string/amazon"
+                    android:menuCategory="secondary"/>
+                <item
+                    android:id="@+id/flipkart"
+                    android:icon="@drawable/flipkart"
+                    android:title="@string/flipkart"
+                    android:menuCategory="secondary"/>
+                <item
+                    android:id="@+id/meesho"
+                    android:icon="@drawable/meesho2"
+                    android:title="@string/meesho"
+                    android:menuCategory="secondary"/>
+                <item
+                    android:id="@+id/shopclues"
+                    android:icon="@drawable/shopclues2"
+                    android:title="@string/shopclues"
+                    android:menuCategory="secondary"/>
+
+            </menu>
+
+        </item>
+
+        <item android:title="@string/food_world">
+            <menu>
+                <item
+                    android:id="@+id/zomato"
+                    android:icon="@drawable/zoma"
+                    android:title="@string/zomato"
+                    android:menuCategory="secondary"/>
+                <item
+                    android:id="@+id/swiggy"
+                    android:icon="@drawable/swiggy"
+                    android:title="@string/swiggy"
+                    android:menuCategory="secondary"/>
+                <item
+                    android:id="@+id/mcDonald"
+                    android:icon="@drawable/mecdownald"
+                    android:title="@string/mcdonald"
+                    android:menuCategory="secondary"/>
+                <item
+                    android:id="@+id/pizzahut"
+                    android:icon="@drawable/pizza"
+                    android:title="@string/pizza_hut"
+                    android:menuCategory="secondary"/>
+
+            </menu>
+
+        </item>
+
+        <item android:title="@string/travelling">
+            <menu>
+                <item
+                    android:id="@+id/googlemap"
+                    android:icon="@drawable/googlemaps"
+                    android:title="@string/google_map"
+                    android:menuCategory="secondary"/>
+                <item
+                    android:id="@+id/irctc"
+                    android:icon="@drawable/irctc2"
+                    android:title="@string/irctc_rail"
+                    android:menuCategory="secondary"/>
+                <item
+                    android:id="@+id/uber"
+                    android:icon="@drawable/uber4"
+                    android:title="@string/uber"
+                    android:menuCategory="secondary"/>
+                <item
+                    android:id="@+id/ola"
+                    android:icon="@drawable/ola"
+                    android:title="@string/ola"
+                    android:menuCategory="secondary"/>
+
+
+            </menu>
+
+        </item>
+
+        <item android:title="@string/hotels">
+
+            <menu>
+                <item
+                    android:id="@+id/oyo"
+                    android:icon="@drawable/oyo2"
+                    android:title="@string/oyo"
+                    android:menuCategory="secondary"/>
+                <item
+                    android:id="@+id/booking"
+                    android:icon="@drawable/booking"
+                    android:title="@string/booking_com"
+                    android:menuCategory="secondary"/>
+                <item
+                    android:id="@+id/trivago"
+                    android:icon="@drawable/trivago"
+                    android:title="@string/trivago"
+                    android:menuCategory="secondary"/>
+                <item
+                    android:id="@+id/hotels"
+                    android:icon="@drawable/hotels"
+                    android:title="@string/hotels_com"
+                    android:menuCategory="secondary"/>
+
+            </menu>
+        </item>
+
+        <item android:title="@string/education">
+
+            <menu>
+                <item
+                    android:id="@+id/aktu"
+                    android:icon="@drawable/aktu"
+                    android:title="@string/aktu"
+                    android:menuCategory="secondary"/>
+                <item
+                    android:id="@+id/ashoka"
+                    android:icon="@drawable/ashoka"
+                    android:title="@string/ashoka_aitm"
+                    android:menuCategory="secondary"/>
+                <item
+                    android:id="@+id/nptel"
+                    android:icon="@drawable/nptel"
+                    android:title="@string/nptel"
+                    android:menuCategory="secondary"/>
+                <item
+                    android:id="@+id/sanfoundary"
+                    android:icon="@drawable/sanfoundary"
+                    android:title="@string/sanfoundary"
+                    android:menuCategory="secondary"/>
+
+
+            </menu>
+
+        </item>
+
+        <item android:title="@string/news">
+
+            <menu>
+                <item
+                    android:id="@+id/ndtv"
+                    android:icon="@drawable/ndtv"
+                    android:title="@string/ndtv"
+                    android:menuCategory="secondary"/>
+                <item
+                    android:id="@+id/indiatoday"
+                    android:icon="@drawable/indiatoday"
+                    android:title="@string/india_today"
+                    android:menuCategory="secondary"/>
+                <item
+                    android:id="@+id/news18"
+                    android:icon="@drawable/news18"
+                    android:title="@string/news18"
+                    android:menuCategory="secondary"/>
+                <item
+                    android:id="@+id/hindustan"
+                    android:icon="@drawable/hinduatantimes"
+                    android:title="@string/hindustan_times"
+                    android:menuCategory="secondary"/>
+
+
+            </menu>
+
+        </item>
+
+        <item android:title="@string/general">
+            <menu>
+                <item
+                    android:id="@+id/calculator"
+                    android:icon="@drawable/calc"
+                    android:title="@string/calculator"
+                    android:menuCategory="secondary"/>
+                <item
+                    android:id="@+id/timedate"
+                    android:icon="@drawable/timedate"
+                    android:title="@string/time_date"
+                    android:menuCategory="secondary"/>
+                <item
+                    android:id="@+id/weather"
+                    android:icon="@drawable/weather"
+                    android:title="@string/weather"
+                    android:menuCategory="secondary"/>
+                <item
+                    android:id="@+id/game"
+                    android:icon="@drawable/game"
+                    android:title="Game World"
+                    android:menuCategory="secondary"/>
+
+
+            </menu>
+
+        </item>
+
+
+    </group>
+
+
+</menu>

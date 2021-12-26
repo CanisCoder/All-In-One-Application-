@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAAEEAB0"
+    android:orientation="vertical"
+    android:weightSum="5"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="2">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="2050dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/socialmedia" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="44dp"
+            android:layout_marginEnd="115dp"
+            android:gravity="center"
+            android:text="Social Media"
+            android:textColor="#3770E1"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="@drawable/background_bg"
+        android:rowCount="2"
+        android:padding="10dp"
+        android:layout_marginTop="35dp"
+        android:columnCount="2">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_youtube"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            app:cardElevation="4dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            app:cardCornerRadius="4dp"
+            android:layout_rowWeight="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:background="#FAAEEAB0">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/youtubeimg" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:text="Youtube"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_facebook"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            app:cardElevation="4dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            app:cardCornerRadius="4dp"
+            android:layout_rowWeight="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:background="#FAAEEAB0">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/fbimg2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20dp"
+                    android:text="Facebook"
+                    android:textColor="@color/black" />
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_instagram"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            app:cardElevation="4dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            app:cardCornerRadius="4dp"
+            android:layout_rowWeight="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:background="#FAAEEAB0">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="85dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/instaimg3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20dp"
+                    android:text="Instagram"
+                    android:textColor="@color/black" />
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_twitter"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            app:cardElevation="4dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            app:cardCornerRadius="4dp"
+            android:layout_rowWeight="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:background="#FAAEEAB0">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="75dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/twitterimg" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20dp"
+                    android:text="Twitter"
+                    android:textColor="@color/black" />
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+    </GridLayout>
+
+
+</LinearLayout>
